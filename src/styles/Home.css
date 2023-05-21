@@ -1,0 +1,36 @@
+body{
+    background-image: url("../assest/Homepage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.Headding{
+    text-align: left;
+    font-size: 50px;
+    text-decoration: black;
+    padding-top: 100px;
+    padding-left: 100px;
+    animation: text 7s 1;
+}
+.sub{
+    text-align: left;
+    font-size: 20px;
+    text-decoration: black;
+    padding-left: 100px;
+    animation: text 8s 1;
+}
+@keyframes text {
+    0%{
+        color: aqua;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}

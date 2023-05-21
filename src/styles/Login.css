@@ -1,0 +1,34 @@
+.form{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.box{
+    padding: 12px;
+    width: 60%;
+    margin: 15px;
+    border: aquamarine;
+    border-radius: .25em;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    color: aqua;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: .50em;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: dimgray;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

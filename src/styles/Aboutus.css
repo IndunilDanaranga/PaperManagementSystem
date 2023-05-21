@@ -1,0 +1,29 @@
+#d-flex1{
+    font-size: 30px;
+    color: dodgerblue;
+    animation: text 7s 1;
+}
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    animation: text 8s 1;
+}
+#flex2{
+    width: 30px;
+    height: 30px;
+    padding-top: 50px;
+}
+@keyframes text {
+    0%{
+        color: aqua;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
