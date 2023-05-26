@@ -1,11 +1,11 @@
 export const  FacultyList = [
     {
-        name:"Faculty of Technology Studies"
+        name1:"Faculty of Technology Studies"
     },
     {
-        name:"Faculty of Business Studies"
+        name2:"Faculty of Business Studies"
     },
     {
-        name: "Faculty of Applied Science"
+        name3: "Faculty of Applied Science"
     }
 ];
